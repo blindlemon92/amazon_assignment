@@ -1,0 +1,169 @@
+
+
+
+
+@font-face {
+    src: url(font/AmazonEmber_Rg.ttf);
+    font-family: ember;
+}
+
+* {
+    font-family: ember;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.pix {
+    margin-top: 20px;
+}
+
+body {
+    text-align: center;
+}
+
+.try { 
+    justify-content: center;
+    display: grid;
+
+}
+
+.wrapper {
+    
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    justify-content: center;
+    padding: 10px;
+    margin-left:15px;
+    margin-right: 15px;
+    margin-top:10px;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    
+    
+}
+
+h2 {
+    text-align: left;
+    font-weight: 100;
+}
+
+.a {
+    margin-top: 5px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+
+.b {
+    
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end:  3;
+    margin-bottom: 5px;
+    font-size: smaller;
+}
+
+.c {
+    grid-row-start: 4;
+    height: 20px;
+    border-radius: 3px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: smaller; 
+}
+
+.d {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: smaller;
+}
+
+.e {
+    text-align: center;
+    margin-bottom: 3px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: smaller;
+}
+
+.f {
+    grid-row-start: 7;
+    height: 20px;
+    border-radius: 3px;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+}
+
+
+.g{
+    background-color: #F7C548;
+    border-radius: 3px;
+    height: 30px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+
+.h {
+    font-size: 13px;
+}
+
+.bottom {
+    justify-content: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: 100px 109px 100px;
+    
+}
+
+.line1 {
+    
+    text-align: right;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    opacity: .4;
+    margin-top: 10px
+}
+
+.line2 {
+    text-align: left;
+    font-size: smaller;
+    opacity: .4;
+    margin-top: 10px;
+}
+.i {
+    padding-top: 5px ;
+    margin-top: 10px;
+    text-align: center;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    opacity: .4;
+    font-weight: 100;
+
+}
+
+.j {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 30px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.end {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.last {
+    font-size: x-small;
+}
